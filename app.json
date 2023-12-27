@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ff01899a-3c76-486e-8b55-fb906aad3a47"
+      }
+    },
+    "owner": "georve"
   }
 }
