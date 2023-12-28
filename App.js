@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from "react-native";
-import FeedPost from './src/components/FeedPost';
+import FeedScreen from './src/screens/FeedScreen';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <FeedPost/>
+      <FeedScreen/>
       <StatusBar style="auto" />
     </View>
   );
