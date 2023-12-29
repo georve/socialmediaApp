@@ -15,6 +15,10 @@ const FeedPost = ({ post }) => {
     <View style={styles.post}>
       {/* Post Header with details about the author */}
       <View style={styles.header}>
+      <Pressable
+         onPress={() => navigation.navigate("Profile", { id: post.postUserId })}
+        style={styles.header}
+       >
         <Image
           source={{ uri: post.User.image }}
           style={styles.profileImage}
@@ -29,6 +33,7 @@ const FeedPost = ({ post }) => {
           color="gray"
           style={styles.icon}
         />
+        </Pressable>
       </View>
 
 
